@@ -1,0 +1,7 @@
+Question: 
+  IIR Filter: Design A second-order bandstop filter with the following specifications: 
+    Sampling rate=8000 Hz 
+    3 dB bandwidth: 
+    BW=100 Hz 
+    Narrow stop-band centered at f0=2000 Hz 
+    Zero gain at 0 Hz and 4000 HZ
