@@ -12,7 +12,7 @@ print("r=",r," , 0.9<=r<1")
 theta_degree= (f0/fs)*360
 theta=math.radians(theta_degree)
 print("θ=",theta_degree,"degree")
-k=(1-(2*r*math.cos(theta))-(r**2))
+k=(1-(2*r*math.cos(theta))+(r**2))/(2-(2*math.cos(theta)))
 k=float("{:.4f}".format(k))
 print("k=",k,"\n___________________________________________")
 #coefficients:
